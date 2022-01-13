@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5501/interests.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Mark B's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Mark B&#39;s Profile_files/styles.css">
+    <link href="./Mark B&#39;s Profile_files/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-nav">
+      <ul class="nav">
+        <li class="name">Mark B</li>
+        <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5501/interests.html">Interests</a></li>
+        <li><a href="http://127.0.0.1:5501/interests.html#">Contact Me</a></li>
+      </ul>
+    </div>
+
+    <header>
+      <img src="./Mark B&#39;s Profile_files/profile-image.jpg" alt="An animated wolf in a DragonBall Z outfit" class="profile-image">
+      <h1 class="tag name">Hey, The names Mark.</h1>
+      <p class="tag blurb">Page mainly consists of interest/hobbies.</p>
+    </header>
+
+    <main class="flex">
+      <div class="info">
+        <h2>Things that pique my interest.</h2>
+        <p>First of all I believe that less is more so here is a quick list;</p>
+        <ul class="hobbies">
+          <li>Anything music related. (singing is it)</li>
+          <li>
+            Puzzles or somesort of brainteaser, I'll gladly accept riddles send
+            them to me
+            <a id="riddle" href="mailto:mboncato21@gmail.com?subject=Here%20is%20a%20riddle." target="_blank">directly</a>
+          </li>
+          <li>Camping and 4wding, the Great outdoors as they call it.</li>
+        </ul>
+        <img id="guitar" src="./Mark B&#39;s Profile_files/guitar.jpeg" alt="picture of a white guitar on a bed">
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://twitter.com/Markkuzz21" class="social twitter">Twitter</a>
+        </li>
+        <li>
+          <a href="https://github.com/Markkuzz" class="social github">Github</a>
+        </li>
+      </ul>
+      <p class="copyright">Copyright 2022, Mark B</p>
+    </footer>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
